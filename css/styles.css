@@ -19,7 +19,20 @@ body {
   font-size: 12px;
 }
 
-
+#sliderContainer {
+    width: 800px;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+#sliderContainer .slider {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    float: left;
+    position: relative;
+}
 
 img {
     display:flex;
